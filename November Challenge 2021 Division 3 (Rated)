@@ -1,11 +1,12 @@
 //Problem: CHEAPFUEL 
-/* package codechef; // don't place package name! */
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-/* Name of the class has to be "Main" only if the class is public. */
+
 class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
@@ -27,3 +28,68 @@ class Codechef
 		}
 	}
 }
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Problem: EQUALCOIN
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+	    Scanner vk = new Scanner(System.in);
+	    int t = vk.nextInt();
+	    while(t-->0){
+	        long x = vk.nextInt();
+	        long y = vk.nextInt();
+	        if(x==0 && y%2==0){
+	            System.out.println("YES");
+	            continue;
+	        }
+	        else if(x==0 && y%2!=0){
+	            System.out.println("NO");
+	            continue;
+	        }
+	        if((x+(2*y))%2==0) System.out.println("YES");
+	        else System.out.println("NO");
+	    }
+	}
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Problem: MAKEPAL 
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner vk = new Scanner(System.in);
+		int t = vk.nextInt();
+		while(t-->0){
+		    int n = vk.nextInt();
+		    int[] arr = new int[n];
+		    int out=0;
+		    for (int i =0;i<arr.length ;i++ ){
+		        arr[i] = vk.nextInt();
+		        if(arr[i]%2==1){
+		            out++;
+		        }
+		    }
+		    System.out.println(out/2);
+		}
+	}
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
