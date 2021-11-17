@@ -1,3 +1,5 @@
-November Challenge 2021 Division 3 (Rated)
-(2021-11-15 15:00:00)
-Global Rank:   1049
+November Challenge 2021 Division 3
+15-11-2021
+
+
+Global Rank: 1049
