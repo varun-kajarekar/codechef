@@ -34,13 +34,7 @@ class Codechef
 		        System.out.println();
 		    }
 		    
-		    
-		    
-		    
-		    
-		    
-		    
-		    
+
 		    
 		}
 	}
